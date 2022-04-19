@@ -1,0 +1,20 @@
+# conn = pyscopg2.connect(...)
+//Establish a connection, starting a session, begins a transaction
+
+# cursor = conn.cursor()
+//Sets a cursor to begin executing commands
+
+# cursor.execute(SQL command string)
+# cursor.commit() 
+//commit the transaction(not done automatically)
+
+# cursor.rollback()
+// rollback the transaction
+
+# cursor.fatchall()
+# cursor.fetchmany(3) // take the first three of the database
+# cursor.fetchone()
+
+# cursor.close()
+# conn.close()
+//close the connection( not done automatically)
