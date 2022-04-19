@@ -21,3 +21,19 @@ Quit psql, return to the terminal
 # \?
 
 Get help, see list of available commands
+
+example=# INSERT INTO table1 (id, description) VALUES (1,'Th
+is is a thing');
+INSERT 0 1
+
+example=# SELECT * from table1; // don't forget the semicolon
+ id |   description
+----+-----------------
+  1 | This is a thing
+(1 row)
+
+example=# SELECT * from table1 WHERE id = 1;
+ id |   description
+----+-----------------
+  1 | This is a thing
+(1 row)
