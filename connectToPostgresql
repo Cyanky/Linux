@@ -1,0 +1,19 @@
+xjc@DESKTOP-S6I0E0I:~$ sudo service postgresql start
+[sudo] password for xjc:
+ * Starting PostgreSQL 12 database server            [ OK ]
+xjc@DESKTOP-S6I0E0I:~$ sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+ALTER ROLE
+xjc@DESKTOP-S6I0E0I:~$ suod -u postgres psql
+
+Command 'suod' not found, did you mean:
+
+  command 'sudo' from deb sudo (1.8.31-1ubuntu1.2)
+  command 'sudo' from deb sudo-ldap (1.8.31-1ubuntu1.2)
+
+Try: sudo apt install <deb name>
+
+xjc@DESKTOP-S6I0E0I:~$ sudo -u postgres psql
+psql (12.9 (Ubuntu 12.9-0ubuntu0.20.04.1))
+Type "help" for help.
+
+postgres=#
