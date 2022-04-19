@@ -16,3 +16,6 @@ xjc@DESKTOP-S6I0E0I:~$ sudo -u postgres -i
 postgres@DESKTOP-S6I0E0I:~$
 // to regist as user of the postgresql
 
+postgres@DESKTOP-S6I0E0I:~$ psql example
+// to connect the database 
+
