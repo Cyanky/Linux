@@ -1,0 +1,6 @@
+xjc@DESKTOP-S6I0E0I:/var/lib/postgresql/class-demos$  sudo chown -R xjc /var/lib/postgresql/class-demos/
+// can't save the demo.py when it was created by another user rather than xjc
+
+xjc@DESKTOP-S6I0E0I:/var/lib/postgresql/class-demos$ sudo -u postgres createuser xjc
+//can't connect the code in vs to postgres because the role "xjc" is not existing
+
