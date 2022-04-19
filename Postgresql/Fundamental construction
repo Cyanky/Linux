@@ -37,3 +37,12 @@ example=# SELECT * from table1 WHERE id = 1;
 ----+-----------------
   1 | This is a thing
 (1 row)
+
+postgres@DESKTOP-S6I0E0I:~$ find $HOME | grep "class-demos"
+/var/lib/postgresql/class-demos
+/var/lib/postgresql/class-demos/demo.py
+postgres@DESKTOP-S6I0E0I:~$
+// to find the dictionary
+
+
+
