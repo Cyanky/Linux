@@ -1,4 +1,4 @@
-xjc@DESKTOP-S6I0E0I:~$ sudo service postgresql start
+xjc@DESKTOP-S6I0E0I:~$ sudo service postgresql start //To do this first rather than regist the user of sql
 [sudo] password for xjc:
  * Starting PostgreSQL 12 database server            [ OK ]
 xjc@DESKTOP-S6I0E0I:~$ sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
