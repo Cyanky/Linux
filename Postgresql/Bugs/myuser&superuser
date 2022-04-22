@@ -4,6 +4,13 @@ xjc@DESKTOP-S6I0E0I:~$ createdb
 
 xjc@DESKTOP-S6I0E0I:~$ cd class-demos
 xjc@DESKTOP-S6I0E0I:~/class-demos$ cd todoapp
+
+xjc@DESKTOP-S6I0E0I:~/class-demos/todoapp$ sudo su xjc***************//log in as a superuser to create database
+xjc@DESKTOP-S6I0E0I:~/class-demos/todoapp$ dropdb todoapp
+xjc@DESKTOP-S6I0E0I:~/class-demos/todoapp$ createdb todoapp
+
+
+
 xjc@DESKTOP-S6I0E0I:~/class-demos/todoapp$ sudo su postgres *************
 [sudo] password for xjc:
 postgres@DESKTOP-S6I0E0I:/home/xjc/class-demos/todoapp$ psql
