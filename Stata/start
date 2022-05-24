@@ -1,0 +1,3 @@
+sudo -s #log as a superuser
+cd /tmp/statafiles/stata17 #enter the file
+./xstata
